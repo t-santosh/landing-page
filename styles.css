@@ -1,0 +1,85 @@
+body {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(42, 42, 44, 0.8)),url(https://images.unsplash.com/photo-1621293954908-907159247fc8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+/* brand name positioning */
+#brand-name {
+    margin-right: 50%;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+/* navigation bar items positioning to the left of the viewport*/
+.main-navbar a {
+    position: relative;
+    top: 30px;
+    padding-inline: 10px;
+    margin-inline: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    transition: 800ms;
+}
+
+.main-navbar a:hover {
+    text-underline-offset: 8px;
+    text-decoration: underline green 2px;
+}
+/* Main title of the landing page in the center of the viewport*/
+.main-title {
+    position: relative;
+    top: 230px;
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.sub-title {
+    width: 400px;
+    position: relative;
+    top: 200px;
+    margin: auto;
+    text-align: center;
+    font-size: small;
+    text-transform: none;
+}
+
+/* button positioning */
+.btn {
+    display: inline;
+    position: relative;
+    top: 210px;
+    left: 523px;
+}
+
+/* button decorations */
+.btn .btn-1, .btn-2 {
+    text-transform: uppercase;  
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid green;
+    width: 170px;
+    margin: 10px;
+    font-size: 12px;
+    padding: 11px; 
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+/* button1 hyperlink decorations */
+.btn .btn-1 a, .btn-2 a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+ /* button1 hover effect */
+.btn .btn-1:hover, .btn-2:hover {
+    background-color: green;
+ }
+
